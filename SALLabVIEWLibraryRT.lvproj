@@ -20,8 +20,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="addConditionalDisableAroundCLFN.vi" Type="VI" URL="../addConditionalDisableAroundCLFN.vi"/>
 		<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../ts_sallv_exa/SALLV_EXA.lvlib"/>
+		<Item Name="VI.lvclass" Type="LVClass" URL="../VI/VI.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
