@@ -1,0 +1,3 @@
+[submodule "ts_sallv_exa"]
+	path = ts_sallv_exa
+	url = https://github.com/lsst-ts/ts_sallv_exa
