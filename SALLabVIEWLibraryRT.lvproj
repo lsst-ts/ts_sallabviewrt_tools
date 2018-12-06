@@ -20,13 +20,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../ts_sallv_exa/SALLV_EXA.lvlib"/>
+		<Item Name="modifySALLVLibElementsForRT.vi" Type="VI" URL="../modifySALLVLibElementsForRT.vi"/>
 		<Item Name="VI.lvclass" Type="LVClass" URL="../VI/VI.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
-			<Item Name="SALLV_EXA.dll" Type="Document" URL="/home/andres/Desktop/SAL_EXA/SALLV_EXA.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
